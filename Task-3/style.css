@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo img {
+    width: 231px;
+    height: 110px;
+}
+
+
+.signin {
+    padding: 38px 110px;
+    display: flex;
+}
+
+.signin button {
+    background-color: red;
+    width: 65px;
+    height: 36px;
+    border-radius: 6px;
+    border: 2px solid red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.searchbar {
+    background-image: url('searchbar.jpeg');
+    width: 90vw;
+    height: 600px;
+    background-size: contain;
+    margin: 3px auto;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    flex-basis: 50%;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.unlimited {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 800px;
+}
+
+.text2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+.text3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 20px 0px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+
+.started button {
+    background: rgb(229, 9, 20);
+    color: white;
+    border: 2px solid rgb(229, 9, 20);
+    width: 166px;
+    margin: auto 20px;
+    height: 58px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.search input {
+    height: 58px;
+    width: 420px;
+    opacity: 0.5;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 3;
+    font-size: 22px;
+}
+
+button:hover {
+    background-color: rgba(188, 5, 5, 0.881);
+    border: 2px solid rgba(188, 5, 5, 0.881);
+    transition: all 0.2s ease-in;
+}
+
+#card {
+    display: flex;
+    width: 100vw;
+    height: 500px;
+}
+
+#frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    margin: 10px 55px;
+    align-items: center;
+    font-size: 19px;
+    padding-left: 47px;
+}
+
+#frame b {
+    display: contents;
+    font-size: 55px;
+}
+
+#faq1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 130px;
+    font-weight: bolder;
+    font-size: 45px;
+    justify-content: left;
+}
+
+#faq {
+    display: flex;
+    font-size: 30px;
+    margin: 3px 0px;
+    justify-content: space-between;
+    margin: 5px 0px;
+    height: 75px;
+    align-items: center;
+    background-color: rgb(54, 53, 53);
+    font-weight: lighter;
+}
+
+#faq:hover {
+    background: rgb(119, 118, 118);
+    transition: all 0.1s ease-in;
+}
+
+#sym1 {
+    padding: 0px 23px;
+}
+
+#plus {
+    padding: 0px 20px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.again {
+    margin: 30px auto;
+}
+.queries{
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    font-size: 15px;
+}
+
+#item{
+    font-weight: lighter;
+margin: 20px 200px 50px 0px;
+}
+
+a {
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.netflix{
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 20px 200px 50px 0px;
+}
